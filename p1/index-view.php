@@ -9,9 +9,9 @@
 
     <ul>
 
-        <li>Player 1 randomly throws either rock, paper, or scissors.</li>
+        <li>Player A randomly throws either rock, paper, or scissors.</li>
        
-        <li>It is a tie if both player 1 and player 2 throw the same thing.</li>
+        <li>It is a tie if both player A and player B throw the same thing.</li>
         
         <li>Otherwise, Rock beats Scissors, Scissors beats Paper, and Paper beats Rock.</li>
 
@@ -34,7 +34,7 @@
 
     <ul>
 
-        <li> <b> Player A <?php    echo $results; ?> </b> </li>
+        <li> <b> Player A <?php echo $results; ?> </b> </li>
 
     </ul>
 

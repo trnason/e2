@@ -3,7 +3,7 @@
 + Production URL: <http://e2p1.harvardtnproject.me>
 
 ## Outside resources
-n/a
+None
 
 ## Notes for instructor
-n/a
+Thank you for your clear videos and well-organized notes. 
