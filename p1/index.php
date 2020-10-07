@@ -37,7 +37,7 @@ elseif ($move1 == 'scissors' and $move2 == 'paper')
 elseif ($move1 == 'paper' and $move2 == 'scissors')
 
     {
-        $results = $Win;
+        $results = $Lose;
     }
     
 elseif ($move1 == 'paper' and $move2 == 'rock')

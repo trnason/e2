@@ -17,8 +17,13 @@ $quarters = 125;
 $halfdollar = 33;
 
 # Add up how much money is in the piggy bank
-$total = ($pennies * $penny_value) + ($nickels * $nickel_value) + ($dimes * $dime_value) + ($quarters * $quarter_value) + ($halfdollar_value* $halfdollar);
+//$total = ($pennies * $penny_value) + ($nickels * $nickel_value) + ($dimes * $dime_value) + ($quarters * $quarter_value) + ($halfdollar_value* $halfdollar);
+
+$total = rand(0,50);
+
+$Testing = ($total <=30 and $total > 50);
+
+var_dump ($Testing);
 
 require 'bank-view.php';
-
 
