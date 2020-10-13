@@ -20,7 +20,7 @@
     </ul>
  
         <form method= 'GET' action='process.php'>
-        <input type = 'radio' name = 'choice' value = 'rock' id ='rock' ><label for='rock'>Rock</label>
+        <input type = 'radio' name = 'choice' value = 'rock' id ='rock' Checked ><label for='rock'>Rock</label>
         <input type = 'radio' name = 'choice' value = 'paper' id ='paper' ><label for='paper'>Paper</label>
         <input type = 'radio' name = 'choice' value = 'scissors' id ='scissors' ><label for='scissors'>Scissors</label>
 
@@ -33,13 +33,15 @@
 
 <h2>Results</h2>
 
-<?php if($haveResults) { ?>
+<?php if($haveResults) 
+
+{ ?>
 
 <ul>
  
     <li> You chose: <?php echo $choice ?>
     <li> The computer chose: <?php echo $computerchoice ?>
-    <li> <?php echo $results ?>
+    <li> Result: <?php echo $results ?>
 
 </li>
 
