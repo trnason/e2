@@ -10,9 +10,9 @@ $computerchoice = $moves[rand(0,2)];
 
 $results = " ";
     
-$Win = 'Wins!';
-$Lose = 'Lost!' ;
-$Tie = 'Tie!' ; 
+$Win = 'You Won!';
+$Lose = 'You Lost!' ;
+$Tie = 'It is a Tie!' ; 
  
 
 if ($choice == $computerchoice) 
