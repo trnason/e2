@@ -58,6 +58,5 @@ elseif ($move1 == 'rock' and $move2 == 'scissors')
         $results = $Win;
     }
 
-
 require 'index-view.php';
 
