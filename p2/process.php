@@ -13,11 +13,6 @@ $results = " ";
 $Win = 'You Won!';
 $Lose = 'You Lost!' ;
 $Tie = 'It is a Tie!' ;
- 
-
-
-
-
 
 
 if ($choice == $computerchoice) {
