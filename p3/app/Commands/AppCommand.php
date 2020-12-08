@@ -2,22 +2,6 @@
 
 namespace App\Commands;
 
-//Problem bit of code
-
-{
-    $id = $this->app->param('id');
-    
-    $round = $this->app->db()->findByID('rounds', $id);
-    
-    return $this->app->view('round', [
-
-    'round' => $round
-
-    ]);
-}
-
-
-
 class AppCommand extends Command
 {
     public function fresh()
@@ -33,6 +17,7 @@ class AppCommand extends Command
             'move' => 'varchar(255)',
             'win' => 'varchar(255)',
             'time' => 'timestamp',
+            'computer' => 'varchar(255)'
         ]);
     }
 

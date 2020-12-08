@@ -14,6 +14,8 @@ Round Details
 
     <li>You choose {{$round['move']}}</li>
 
+    <li>The computer choose {{$round['computer']}}</li>
+
     <li>{{$round['win']}}</li>
 
     <li>Time: {{$round['time']}}</li>

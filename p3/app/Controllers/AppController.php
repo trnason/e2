@@ -60,7 +60,6 @@ class AppController extends Controller
         $Lose = 'The User Lost!' ;
         $Tie = 'It is a Tie!' ;
 
-
         if ($move == $computerchoice) {
             $results = $Tie;
         } elseif ($move == 'rock' and $computerchoice == 'paper') {
@@ -78,12 +77,10 @@ class AppController extends Controller
         }
 
         $data = [
-
             'move' => $move,
             'win' => $results,
             'time' => date('Y-m-d H:i:s'),
-
-
+            'computer' => $computerchoice
         ];
         
         $this->app->db()->insert('rounds', $data);
@@ -91,14 +88,11 @@ class AppController extends Controller
         //Redirect the user back to the home page with the form to play again
 
         $this->app->redirect('/', [
-        
         'results' => [
             'move' => $move,
             'win' => $results,
             'computerchoice' => $computerchoice,
-
         ]
-    
         ]);
     }
 }
