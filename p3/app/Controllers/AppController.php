@@ -17,6 +17,8 @@ class AppController extends Controller
         ]);
     }
 
+
+    
     public function history()
     {
         $rounds =$this->app->db()->all('rounds');
@@ -37,6 +39,7 @@ class AppController extends Controller
         return $this->app->view('round', [
 
         'round' => $round
+
 
         ]);
     }
